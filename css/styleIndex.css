@@ -1,0 +1,76 @@
+html {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.websiteColor {
+  background-color: #ecf0f1;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Navigation Bar */
+/* ------------------------------------------------------------ */
+
+.navBarColor {
+  background-color: #2980b9;
+}
+
+.navBarColor div ul li {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.navPosition {
+  text-align: center;
+}
+
+/* Button */
+/* ------------------------------------------------------------ */
+
+.buttonStyle {
+  text-align: center;
+}
+
+/* Jumbo Tron */
+/* ------------------------------------------------------------ */
+
+.jtronImage {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(40, 81, 143, 0.699),
+      rgba(40, 81, 143, 0.699)
+    ),
+    url(/images/codingPic8.jpg);
+  /* background-color: black; */
+  height: 100vh;
+}
+
+.jtronImage h1 {
+  color: white;
+}
+
+.jtronImage p {
+  color: white;
+}
+
+/* Footer */
+/* ------------------------------------------------------------ */
+
+footer {
+  margin: 0;
+}
+
+/* Colors: #3498db Peter River, Belize Hole #2980b9, Clouds #ecf0f1, Silver #bdc3c7 */
